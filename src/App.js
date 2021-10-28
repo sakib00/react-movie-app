@@ -14,7 +14,7 @@ function App() {
   const [year, setYear] = useState('');
 
   const getMovieRequest = async () => {
-    const url = `http://www.omdbapi.com/?s=${searchValue}&type=${typeValue}&y=${year}&apikey=fe1b8706`;
+    const url = `//www.omdbapi.com/?s=${searchValue}&type=${typeValue}&y=${year}&apikey=fe1b8706`;
 
     const response = await fetch(url);
     const responseJson = await response.json();

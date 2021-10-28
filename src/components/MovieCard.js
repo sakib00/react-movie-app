@@ -4,7 +4,7 @@ function MovieCard(props) {
   const [movie, setMovie] = useState({});
 
   const getCurrentMovieRequest = async () => {
-    const url = `http://www.omdbapi.com/?i=${props.currentID}&apikey=fe1b8706`;
+    const url = `//www.omdbapi.com/?i=${props.currentID}&apikey=fe1b8706`;
     const response = await fetch(url);
     const responseJson = await response.json();
     setMovie(responseJson);
