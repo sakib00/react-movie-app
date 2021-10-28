@@ -1,0 +1,18 @@
+input[type='text'] {
+  padding: 8px 4px;
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #676767;
+  color: white;
+}
+input[type='text']:focus {
+  outline: none;
+  border-bottom: 1px solid transparent;
+  border-image: linear-gradient(to right, #e50914, #e50914);
+  border-image-slice: 1;
+}
+
+input[type='text']::placeholder {
+  color: white;
+}
