@@ -56,30 +56,30 @@ function App() {
         </div>
       </div>
       <div className='body my-auto container mx-auto'>
-//         <div className='watch-list mt-5 h-1/5'>
-//           <h2 className='text-2xl font-semibold text-light'>Watch List</h2>
-//           <div className='py-14'>
-//             <div className='flex justify-center'>
-//               <svg
-//                 xmlns='http://www.w3.org/2000/svg'
-//                 className='h-20 w-20 text-gray-400'
-//                 fill='none'
-//                 viewBox='0 0 24 24'
-//                 stroke='currentColor'
-//               >
-//                 <path
-//                   strokeLinecap='round'
-//                   strokeLinejoin='round'
-//                   strokeWidth={2}
-//                   d='M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z'
-//                 />
-//               </svg>
-//             </div>
-//             <p className='text-3xl font-semibold text-gray-400 t,ext-center '>
-//               Watch List is Empty
-//             </p>
-//           </div>
-//         </div>
+        {/* <div className='watch-list mt-5 h-1/5'>
+           <h2 className='text-2xl font-semibold text-light'>Watch List</h2>
+           <div className='py-14'>
+             <div className='flex justify-center'>
+               <svg
+                xmlns='http://www.w3.org/2000/svg'
+                className='h-20 w-20 text-gray-400'
+                fill='none'
+                viewBox='0 0 24 24'
+                stroke='currentColor'
+              >
+                <path
+                  strokeLinecap='round'
+                  strokeLinejoin='round'
+                  strokeWidth={2}
+                  d='M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z'
+                />
+              </svg>
+            </div>
+            <p className='text-3xl font-semibold text-gray-400 t,ext-center '>
+              Watch List is Empty
+            </p>
+          </div>
+        </div> */}
         <div className='movie-list h-4/5'>
           <h2 className='text-2xl font-semibold text-light my-5'>Movie List</h2>
           <div className='flex'>
